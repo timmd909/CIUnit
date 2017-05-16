@@ -1,10 +1,10 @@
 {
     "name": "celc/ciunit",
-    "description": "Enables testing CodeIgniter 2.1 with PHPUnit",
+    "description": "Enables testing CodeIgniter 2.x with PHPUnit 6.x",
     "minimum-stability": "dev",
     "license": "MIT",
     "require": {
-        "phpunit/phpunit": "4.8.*",
+        "phpunit/phpunit": "*",
         "mustangostang/spyc": "0.5.*"
     },
     "autoload": {
