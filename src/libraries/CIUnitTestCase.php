@@ -87,7 +87,7 @@ class CIUnit_TestCase extends PHPUnit\Framework\TestCase
      *
      * @author Eric Jones
      */
-    protected function setUp()
+    protected function setUp() : void
     {
         // Only run if the $tables attribute is set.
         if (!empty($this->tables)) {
@@ -104,7 +104,7 @@ class CIUnit_TestCase extends PHPUnit\Framework\TestCase
      *
      * @author Eric Jones
      */
-    protected function tearDown()
+    protected function tearDown() : void
     {
         // Only run if the $tables attribute is set.
         if (!empty($this->tables)) {
